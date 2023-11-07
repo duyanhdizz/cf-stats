@@ -6,7 +6,7 @@ from app.utils.file_utils import Config
 
 def main() -> None:
     """This method is used for testing purpose."""
-    print('generating stats...')
+    print('generating stats...') 
     CFResponseParser.parse()
 
     generator = SVGFactory.get_svg_generator(Constant.BADGE)
